@@ -1,3 +1,0 @@
-open cmd/terminal and cd to this folder
-run ->  streamlit run app.py
-enjoy the app
