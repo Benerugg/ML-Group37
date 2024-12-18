@@ -13,7 +13,7 @@ st.set_page_config(
 
 @st.cache_resource
 def load_model_and_mappings():
-    model = pickle.load(open('xgb_model.pkl', 'rb'))
+    model = pickle.load(open('tuned_XGB.pkl', 'rb'))
     
     district_mapping = {
         'ALBANY': 0, 'BINGHAMTON': 1, 'BINGHAMTON': 2,
